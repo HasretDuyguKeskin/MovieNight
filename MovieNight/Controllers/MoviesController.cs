@@ -10,7 +10,7 @@ namespace MovieNight.Controllers
 {
     public class MoviesController : BaseController
     {
-        public object AplicationUser { get; private set; }
+        public object ApplicationUser { get; private set; }
 
         [Authorize]
         public ActionResult Favorites()
